@@ -1,0 +1,119 @@
+img#blankImg
+{
+  max-width: 100%;
+}
+
+button[name="homebtn"]
+{
+  height: 48px;
+  width: 48px;
+  padding-left: 1px;
+  padding-top:1px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  margin-left: 15%;
+}
+
+button[name="uploadbtn"]
+{
+  height: 48px;
+  width: 48px;
+  padding-left: 1px;
+  padding-top:1px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  margin-left: 10%;
+}
+
+button[name="userbtn"]
+{
+  height: 48px;
+  width: 48px;
+  padding-left: 1px;
+  padding-top:1px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  margin-left: 1%;
+}
+
+input#searchbox
+{
+  margin-left: 17%;
+  overflow: hidden;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+button[name="deletebtn"]
+{
+  height: 35px;
+  width: 35px;
+  padding-left: 6px;
+  padding-top: 1px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+#container > div
+{
+    display: inline-block;
+}
+
+#container
+{
+    margin: 0px auto;
+}   
+
+body,h1 
+{
+	font-family: "Montserrat", sans-serif;
+}
+
+img 
+{
+	margin-bottom: -7px
+}
+.w3-row-padding img 
+{
+	margin-bottom: 12px;
+	margin-left:15px;
+	margin-right: 15px;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover,
+.rating > span:hover ~ span {
+  color: transparent;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   left: 0; 
+   color: gold;
+}
